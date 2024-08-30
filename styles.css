@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color:rgb(227, 226, 226);
+    margin: 0;
+}
+
+head {
+    margin: auto auto;
+}
+
+header {
+    background-color: rgb(45, 45, 45);
+    margin: 0;
+    padding: 10px;
+    color: rgb(196, 196, 196);
+    font-family: 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+
+h2 {
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    transition: color 0.3s ease;
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+}
+h3 {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 100px;
+    /*border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(32, 32, 32);*/
+    color: rgb(180, 180, 180);
+    font-size: 1.2em;
+    max-width: 90%;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+@media (max-width: 1200px) {
+    h3 {
+        font-size: 1em;
+        margin: auto 30px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.0em;
+        margin: 8px 0;
+        margin:7px;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin: 5px 0;
+    }
+}
+.n1:hover
+{
+    color:white;
+}
+.n2:hover
+{
+    color:white;
+}
+.n3:hover
+{
+    color:white;
+}
+.n4:hover
+{
+    color:white;
+}
+.n5:hover
+{
+    color:white;
+}
+.n6:hover
+{
+    color:white;
+}
+.n7:hover
+{
+    color:white;
+}
+.n8:hover
+{
+    color:white;
+}
+h3:hover
+{
+    color:white;
+}
+.logo 
+{
+
+    margin: -10px;
+    margin-bottom: -18px;
+    padding: -5px;
+    max-width: 50px;
+}
+.pfp
+{
+    width: 100%;
+    overflow: hidden;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.divider
+{
+    border-width: 1px;
+    border-color:white;
+    border-style: solid;
+    margin:auto 10%;
+}
+p {
+    margin:10px 15%;
+}
